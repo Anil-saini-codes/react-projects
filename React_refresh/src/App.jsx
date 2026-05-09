@@ -4,13 +4,17 @@ import React from "react";
 // import DebounceSearch from "./DebounceSearch";
 // import Pagination from "./Pagination";
 // import InfiniteScroll from "./InfiniteScroll";
-import ThemeModes from "./ThemeModes";
+// import ThemeModes from "./ThemeModes";
+// import Accordion from "./Accordian";
+import Tabs from "./Tabs";
 
 function App() {
   return (
     <>
       {/* <Todo /> */}
-      <ThemeModes />
+      {/* <ThemeModes />
+       */}
+      <Tabs />
     </>
   );
 }
